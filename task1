@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sreepathi Ashwitha-portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Sreepathi Ashwitha</h1>
+            <p>Web Developer | Designer | Programmer</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello! I am a passionate web developer with a focus on creating dynamic and beautiful web applications. I enjoy solving complex problems and learning new technologies. Welcome to my portfolio!</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python, Django</li>
+            <li>GitHub</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2>My Projects</h2>
+        <div class="project-cards">
+            <div class="card">
+                <h3>Netflix Stock Price Prediction Using Machine Learning </h3>
+                <p>It invovles historical stock data to forecast future prices<br>Used Python Language and machine Learning Models</p>
+            </div>
+            <div class="card">
+                <h3>Count Down Timer Using Python</h3>
+                <p>A Countdown Timer in Python is a program that starts from a set time and counts down to zero, showing the remaining time<br> When it reaches zero, it can display a message or play a sound.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out via email or follow me on social media!</p>
+        <ul>
+            <li>Email:ashuashwitha275@gmail.com</li>
+            <li>LinkedIn: <a href="www.linkedin.com/in/sreepathiashwitha" target="_blank">Sreepathi Ashwitha</a></li>
+            <li>GitHub: <a href="https://github.com/yourashu2005" target="_blank">yourashu2005</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sreepathi Ashwitha. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+/* code for css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color:white;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
